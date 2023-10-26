@@ -1,0 +1,424 @@
+/*background color for all sections*/
+.bi-bg {
+    background-color: #37517e;
+}
+.ct-bg, .wd-bg, .service-bg, .team-bg, .news-bg {
+    background-color: #f3f5fa;
+}
+.cta-bg {
+    background: linear-gradient(#37517e87, #37517e87), 
+url('../image/skyscraper.jpg');
+}
+
+/*Nav*/
+.nav-text {
+    font-size: 25px;
+    color: white;
+}
+.navbar-bg {
+    background-color: #37517e !important;
+}
+
+/*Business into*/
+
+.business-intro {
+    background-color: #37517e;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.business-intro > h1 {
+    color: white;
+    text-align: center;
+}
+.business-intro > p {
+    color: white;
+    text-align: center;
+}
+
+/*client tray*/
+
+.client-tray {
+    padding: 20px;
+    background-color: #f3f5fa;
+}
+.logo-tray {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+/*About Us*/
+.about-us {
+    padding: 20px;
+    color: #37517e;
+    padding: 40px;
+}
+.about-us > h2 {
+    text-align: center;
+}
+.about-us li {
+    list-style: none;
+}
+.about-us li::before {
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url(../image/3546537.png);
+}
+
+/*what we do*/
+.what-do {
+    background-color: #f3f5fa;
+    color: #37517e;
+    padding: 40px;
+}
+.wd-head-image{
+    text-align: center;
+}
+
+.what-do > p {
+    color: #848484;
+}
+.what-do-icon {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+}
+.what-do-num {
+    margin-right: 10px;
+}
+.wd-dropdown-title {
+    display: flex;
+    align-items: center;
+}
+.wd-dropdown-title p, .wd-dropdown-title h2 {
+    margin-bottom: 0;
+}
+.what-do-drop {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+/*Skills*/
+.skill {
+    color: #37517e;
+    padding: 40px;
+}
+.skill-heading {
+    text-align: center;
+}
+.skill-tech > p{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+.skill-tech {
+    margin-top: 15px;
+}
+
+/*Service*/
+.service {
+    background-color: #f3f5fa;
+    color: #37517e;
+    padding: 40px;
+}
+.service > h2, .service > p {
+    text-align: center;
+}
+.service-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+}
+.service-card {
+    width: 100%;
+    padding: 50px;
+    background-color: white;
+}
+
+/*Call to action*/
+.cta {
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cta-part-1 > h2, .cta-part-1 > p {
+    text-align: center;
+}
+
+/*Portfolio*/
+.portfolio {
+    padding: 40px;
+    color: #37517e;
+    text-align: center;
+}
+.portfolio-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.portfolio-nav a {
+    display: block;
+    text-decoration: none;
+    color: #22324e;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+.portfolio-nav-active {
+    color: white !important;
+    background-color: #47b2e4;
+}
+
+/*Team*/
+
+.team {
+    color: #37517e;
+    padding: 40px;
+}
+.team-part-1 {
+    text-align: center;
+}
+    /*Team card*/
+    .team-card {
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        background-color: white;
+        border-radius: 9px;
+        margin: 20px 0px;
+        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+      }
+      .team-card > img{
+        border-radius: 50%;
+        height: 180px;
+      }
+      .team-card-details {
+        margin-left: 20px;
+      }
+      .team-card-social-icon {
+        display: flex;
+      }
+      .team-card-social-icon a{
+        margin: 0 10px;
+        background-color: #f2f2f2;
+        border-radius: 50%;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+
+/*Pricing*/
+.pricing {
+    padding: 40px;
+    color: #37517e;
+}
+.pricing-part-1 {
+    text-align: center;
+}
+.pricing-part-2 {
+    display: flex;
+    justify-content: center;
+}
+.pricing-card {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.pricing-card ul {
+    padding: 0;
+}
+.pricing-card li {
+    list-style: none;
+}
+
+/*Contact*/
+.contact {
+    color: #37517e;
+    padding: 40px;
+}
+.contact-part-1 {
+    text-align: center;
+}
+.contact-details {
+    padding: 20px;
+    border-style: solid;
+    border-color:  #37517e;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+.contact-form {
+    padding: 20px;
+    border-style: solid;
+    border-color:  #37517e;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+.contact-form > label {
+    display: block;
+}
+.contact-form > input, .contact-form > textarea {
+    width: 100%;
+}
+
+/*Newsletter*/
+.news {
+    padding: 40px;
+}
+.news > form {
+    display: flex;
+}
+.news input{
+    margin-right: 10px;
+}
+.news-part-1 {
+    text-align: center;
+}
+
+/*footer*/
+.footer {
+    padding: 40px 40px 0 40px;
+}
+
+/*------------------------------laptop and greater screen-----------------------------------*/
+
+@media screen and (min-width: 800px) {
+    /*business-intro*/
+    .business-intro {
+        flex-direction: row;
+        align-items: center;
+        height: 70vh;
+    }
+
+    /*client-tray*/
+    .client-tray {
+        height: 10vh;
+        display: flex;
+        align-items: center;
+    }
+    .logo-tray {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    /*about us*/
+    .au-align {
+        display: flex;
+    }
+    .au-content-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .learn-more {
+        width:fit-content
+    }
+
+    /*what do we do*/
+    .what-do{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .wd-part-1, .wd-part-2{
+        width: 50%;
+    }
+
+    /*Skill*/
+    .skill{
+        display: flex;
+        align-items: center;
+    }
+    .skill-part-1, .skill-part-2 {
+        width: 50%;
+    }
+
+    /*call to action*/
+    .cta {
+        gap: 25px;
+        flex-direction: row;
+    }
+    .cta-part-1{
+        width: 70%;
+    }
+    .cta-part-1 > h2, .cta-part-1 > p {
+        text-align: left;
+    }
+
+    /*team team-part-2*/
+    .team-part-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .team-card {
+        display: grid;
+    }
+    .team-card-social-icon a{
+        margin: 0 5px;
+        background-color: #f2f2f2;
+        border-radius: 50%;
+        padding: 5px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*pricing*/
+    .pricing-part-2{
+        display: flex !important;
+        gap: 20px;
+    }
+    .pricing-card{
+        width: 70%;
+    }
+
+    /*Contact*/
+    .contact-part-2 {
+        display: flex;
+        gap: 20px;
+    }
+    .contact-details, .contact-form{
+        width: 50%;
+    }
+}
+
+/*----------------------debugging------------------------------*/
+@media screen and (max-width: 550px) {
+    /*service cards*/
+    .service-cards{
+        grid-template-columns: 1fr;
+    }
+    .team-card{
+        display: grid;
+    }
+
+    /*pricing*/
+    .pricing-part-2 {
+        display: grid;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .pricing-part-2 {
+        display: grid;
+        gap: 20px;
+    }
+}
+
